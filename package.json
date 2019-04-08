@@ -4,7 +4,7 @@
   "description": "Filter out a list of sensitive words",
   "main": "build/index.js",
   "scripts": {
-    "build": "babel src -d build",
+    "build": "babel src -d build -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "babel": {

@@ -1,6 +1,6 @@
 
 import sensitiveWords from '.'
 
-test('', () => {
-  expect(sensitiveWords()).toBe('Hello world')
-})
+test('says hello world', () => (
+  expect(sensitiveWords()).toBe('hello world')
+))

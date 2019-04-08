@@ -1,4 +1,2 @@
 
-export default () => {
-  'Hello universe'
-}
+export default () => 'hello world'

@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "build": "babel src -d build -w",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "babel": {
     "presets": [
@@ -30,6 +30,7 @@
   "homepage": "https://github.com/BolajiAyodeji/sensitive-words#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-latest": "^6.24.1"
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^24.7.1"
   }
 }

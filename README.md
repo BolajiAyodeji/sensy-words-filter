@@ -10,7 +10,7 @@
 $ npm install sensitive-words --save
 ```
 
-# Example
+# Usage
 
 ```js
 const {sensitiveWords} = require('sensitive-words')

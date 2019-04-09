@@ -1,9 +1,3 @@
-<div align="center">
-
-# `sensitive-words`
-
-</div>
-
 # Setup
 
 ```bash

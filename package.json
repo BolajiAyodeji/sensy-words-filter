@@ -6,8 +6,8 @@
   "scripts": {
     "build": "babel src -d build -w",
     "test": "jest --watchAll",
-    "prepublishOnly": "npm test",
-    "release": "np"
+    "prerel": "npm test",
+    "rel": "np"
   },
   "babel": {
     "presets": [
@@ -34,7 +34,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1",
-    "jest": "^24.7.1",
-    "np": "^4.0.2"
+    "jest": "^26.0.1",
+    "np": "^6.2.3"
   }
 }

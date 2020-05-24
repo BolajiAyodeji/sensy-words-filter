@@ -1,22 +1,42 @@
-# Setup
+# sensy-words
+
+## Setup
 
 ```bash
-$ npm install sensitive-words --save
+$ npm install sensy-words-filter --save
 ```
 
-# Usage
+## Usage
 
 ```js
 const {sensitiveWords} = require('sensitive-words')
+
 // ES2015 modules
 import {sensitiveWords} from 'sensitive-words'
+```
 
-const filtered =
+### Replaces blacklisted words with asterisks
+
+```js
+const words =
   sensitiveWords(
-    'The new apple macbook pro will have a touchbar',
-    ['pro', 'touchbar']
+    'sensy-words, a package for filtering out a list of sensitive words',
+    ['filtering', 'sensitive']
   )
 
-console.log(filtered)
-// The new apple macbook *** will have a ***
+console.log(words)
+// sensy-words, a package for **** out a list of **** words
+```
+
+### Replaces multiple instances of blacklisted words
+
+```js
+const words =
+  sensitiveWords(
+    'sensy-words, a sensitive package for filtering out a list of sensitive words',
+    ['filtering', 'sensitive']
+  )
+
+console.log(words)
+// sensy-words, a **** package for **** out a list of **** words
 ```

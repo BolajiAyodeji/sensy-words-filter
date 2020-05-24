@@ -2,14 +2,14 @@ import sensyWords from '.'
 
 test('replaces blacklisted words with asterisks', () => (
   expect(sensyWords(
-    'The name of the NX will be the Nintedo Switch',
-    ['switch']
-    )).toBe('The name of the NX will be the Nintedo ****')
+    'sensy-words, a package for filtering out a list of sensitive words',
+    ['filtering', 'sensitive']
+    )).toBe('sensy-words, a package for **** out a list of **** words')
 ))
 
 test('replaces multiple instances of blacklisted words', () => (
   expect(sensyWords(
-    'The name of the NX will be the Nintedo Switch. The switch will be awesome!',
-    ['switch']
-    )).toBe('The name of the NX will be the Nintedo ****. The **** will be awesome!')
+    'sensy-words, a sensitive package for filtering out a list of sensitive words',
+    ['filtering', 'sensitive']
+    )).toBe('sensy-words, a **** package for **** out a list of **** words')
 ))

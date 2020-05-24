@@ -1,8 +1,8 @@
 {
-  "name": "sensitive-words-filter",
+  "name": "sensy-words-filter",
   "version": "1.0.0",
-  "description": "Filter out a list of sensitive words",
-  "main": "build/index.js",
+  "description": "Package to filter out a list of sensitive words",
+  "main": "index.js",
   "scripts": {
     "build": "babel src -d build -w",
     "test": "jest --watchAll",
@@ -23,7 +23,8 @@
     "filter",
     "filtering",
     "sensitive",
-    "words"
+    "words",
+    "replace words"
   ],
   "author": "Bolaji Ayodeji (https://bolajiayodeji.com)",
   "license": "MIT",

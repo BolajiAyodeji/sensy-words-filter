@@ -9,17 +9,17 @@ $ npm install sensy-words-filter --save
 ## Usage
 
 ```js
-const {sensitiveWords} = require('sensitive-words')
+const {sensyWords} = require('sensy-words-filter')
 
 // ES2015 modules
-import {sensitiveWords} from 'sensitive-words'
+import {sensyWords} from 'sensy-words-filter'
 ```
 
 ### Replaces blacklisted words with asterisks
 
 ```js
 const words =
-  sensitiveWords(
+  sensyWords(
     'sensy-words, a package for filtering out a list of sensitive words',
     ['filtering', 'sensitive']
   )
@@ -32,7 +32,7 @@ console.log(words)
 
 ```js
 const words =
-  sensitiveWords(
+  sensyWords(
     'sensy-words, a sensitive package for filtering out a list of sensitive words',
     ['filtering', 'sensitive']
   )

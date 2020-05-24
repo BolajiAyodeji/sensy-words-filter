@@ -1,5 +1,4 @@
-
-module.exports = sensitiveWords = (content, words) => (
+module.exports = (content, words) => (
   content.replace(
     new RegExp(words.join('|'), 'ig'),
     '****'

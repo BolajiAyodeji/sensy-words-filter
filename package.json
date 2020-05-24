@@ -6,7 +6,6 @@
   "scripts": {
     "build": "babel src -d build -w",
     "test": "jest --watchAll",
-    "prepare": "npm run build",
     "prepublishOnly": "npm test",
     "release": "np"
   },
@@ -17,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BolajiAyodeji/sensitive-words.git"
+    "url": "git+https://github.com/BolajiAyodeji/sensy-words-filter.git"
   },
   "keywords": [
     "filter",
@@ -29,9 +28,9 @@
   "author": "Bolaji Ayodeji (https://bolajiayodeji.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BolajiAyodeji/sensitive-words/issues"
+    "url": "https://github.com/BolajiAyodeji/sensy-words-filter/issues"
   },
-  "homepage": "https://github.com/BolajiAyodeji/sensitive-words#readme",
+  "homepage": "https://github.com/BolajiAyodeji/sensy-words-filter#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1",

@@ -1,4 +1,10 @@
-# sensy-words
+<div align="center">
+  
+# sensy-words 
+
+[![NPM](https://nodei.co/npm/sensy-words-filter.png?compact=true)](https://nodei.co/npm/sensy-words-filter/)
+
+</div>
 
 ## Setup
 

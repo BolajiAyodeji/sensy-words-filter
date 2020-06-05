@@ -3,6 +3,7 @@
 # sensy-words 
 
 [![NPM](https://nodei.co/npm/sensy-words-filter.png?compact=true)](https://nodei.co/npm/sensy-words-filter/)
+<br />
 [![](https://img.shields.io/npm/dt/sensy-words-filter.svg?style=flat-square)](https://www.npmjs.com/package/gsensy-words-filter)
 
 </div>
